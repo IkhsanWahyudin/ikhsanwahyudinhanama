@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(42deg, rgba(243,250,125,1) 35%, rgba(0,167,255,0.9805194805194806) 100%);
+}
+
+.sidebar header {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: linear-gradient(42deg, rgba(243,250,125,1) 35%, rgba(0,167,255,0.9805194805194806) 100%);
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 16px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+}
+
+.sidebar ul a img {
+    margin-right: 16px;
+}
+
+section {
+    background: linear-gradient(42deg, rgba(125,250,140,1) 0%, rgba(0,255,245,0.9805194805194806) 100%);
+}
+
+section .g1 {
+    padding-left: 480px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+section .g2 {
+    padding-top: 30px;
+    padding-left: 250px;
+}
+
+section .g3{
+    padding-top: 10px;
+    padding-left: 520px;
+}
+
+footer {
+    background: linear-gradient(90deg, rgba(0,255,128,1) 0%, rgba(0,255,210,0.9805194805194806) 62%, rgba(65,192,255,1) 100%);
+}
+
+h6 {
+    margin-left: 500px;
+}
